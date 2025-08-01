@@ -1,0 +1,17 @@
+{
+  "name": "subtitle-merge",
+  "version": "0.1.0",
+  "description": "Merge two subtitles into dual subtitles",
+  "type": "module",
+  "main": "lib/index.js",
+  "bin": {
+    "subtitle-merge": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node ./bin/cli.js ./data/chs.srt ./data/eng.srt ./data/chs-eng.srt",
+    "test2": "node ./bin/cli.js ./data/chs.srt ./data/eng.srt",
+    "test3": "node ./bin/cli.js ./data/chs.srt"
+  },
+  "author": "helloint",
+  "license": "MIT"
+}
