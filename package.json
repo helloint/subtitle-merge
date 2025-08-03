@@ -1,6 +1,6 @@
 {
   "name": "subtitle-merge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Merge two subtitles into dual subtitles",
   "type": "module",
   "main": "lib/index.js",
@@ -13,5 +13,9 @@
     "test3": "node ./bin/cli.js ./data/chs.srt"
   },
   "author": "helloint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloint/subtitle-merge.git"
+  },
   "license": "MIT"
 }
