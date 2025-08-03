@@ -10,8 +10,7 @@
   "scripts": {
     "test": "node ./bin/cli.js ./data/chs.srt ./data/eng.srt ./data/chs-eng.srt",
     "test2": "node ./bin/cli.js ./data/chs.srt ./data/eng.srt",
-    "test3": "node ./bin/cli.js ./data/chs.srt",
-    "bumpVersion": "npx bbump"
+    "test3": "node ./bin/cli.js ./data/chs.srt"
   },
   "author": "helloint",
   "repository": {
