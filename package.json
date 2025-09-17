@@ -8,9 +8,7 @@
     "subtitle-merge": "./bin/cli.js"
   },
   "scripts": {
-    "test": "node ./bin/cli.js ./data/chs.srt ./data/eng.srt ./data/chs-eng.srt",
-    "test2": "node ./bin/cli.js ./data/chs.srt ./data/eng.srt",
-    "test3": "node ./bin/cli.js ./data/chs.srt",
+    "test": "node ./test.js",
     "bumpVersion": "npx bbump"
   },
   "author": "helloint",
@@ -20,7 +18,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "provenance": true,
+    "provenance": true
   },
   "license": "MIT"
 }
