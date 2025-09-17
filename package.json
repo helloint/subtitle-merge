@@ -17,5 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/helloint/subtitle-merge.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+  },
   "license": "MIT"
 }
